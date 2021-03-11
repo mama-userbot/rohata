@@ -3,13 +3,9 @@
 ***⚠️USE THIS REPO AT YOUR OWN RISK***
 
 
- 
-GENERATED FROM [THIS REPOSITORY](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 
-
-
-[![phantom](https://telegra.ph/file/d0ee4291e14794f693e97.jpg)]
+[![phantom](https://telegra.ph/file/d0ee4291e1d4794f693e97.jpg)]
 
 
 
