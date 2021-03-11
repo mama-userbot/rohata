@@ -26,30 +26,27 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-*Hi* {}, My name is __Kora__! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of *available commands* with :
-👉 /help.
+*Hey* {}, My name is 𝑵𝒆𝒔𝒕𝒍𝒆! 
+I am an group management bot..
+I have alots special Features ..
+You can find my list of *available commands* with : /help.
 
 """
 
 HELP_STRINGS = """
 
-Hey there! My name is __Kora__ .
-I am a blank, I will be your partner and can help make your group great and attract members to the group. Take a look to know about some of the following things.
+Hey there! My name is 𝑵𝒆𝒔𝒕𝒍𝒆 .
+I can help make your group great and attract members to the group. Take a look to know about some of the following things.
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+ • /, !: Triggers
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KORA_IMG = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
+KORA_IMG = "https://telegra.ph/file/e9c76b32a7415b9498e1f.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -148,15 +145,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                 reply_markup=InlineKeyboardMarkup(
                [[
                InlineKeyboardButton(
-                   text="👑 SUMMON ME",
+                   text="🍫 Invite Me 🍫",
                    url="t.me/{}?startgroup=true".format(bot.username)),
                InlineKeyboardButton(
-                             text="⚡️ Get Support",
-                             url=f"https://t.me/KoraSupport")
+                             text="⚡️ Support",
+                             url=f"https://t.me/FyonaSupport")
                ]]))
 
     else:
-        update.effective_message.reply_text("Yo, whadup? 🤧")
+        update.effective_message.reply_text("I am Alive !!!")
 
 
 def send_start(bot, update):
